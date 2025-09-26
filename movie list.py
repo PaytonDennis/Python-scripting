@@ -1,10 +1,16 @@
-movie_list = ["No country for old me","Underworld","Alien"]
+movie_list = ["No country for old men", "Underworld", "Alien"]
 
+while True:
+    new_movie = input("Add a movie to the list (or type 'Stop' to finish): ")
+
+    if new_movie.lower() == "stop":
+        break
+
+    movie_list.append(new_movie)
+
+
+print("\nFinal movie list:")
 for index, movie in enumerate(movie_list):
-    print(enumerate(movie_list))
+    print(index, movie)
 
 
-for index, movie in range(3):
-  new_movie = input("Add a movie to the list")
-  movie_list.append(new_movie)
-  print(enumerate(movie_list))
