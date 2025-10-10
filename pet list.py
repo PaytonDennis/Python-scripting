@@ -11,3 +11,8 @@ for index, pet in enumerate(pets):
     print(index, pet)
 
 
+name = "bob"
+name2 = "bill"
+
+age = 2
+
